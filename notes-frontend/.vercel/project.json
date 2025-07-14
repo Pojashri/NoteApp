@@ -1,6 +1,1 @@
-{
-  "framework": "vite",
-  "installCommand": "npm install --include=dev",
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist"
-}
+{"projectId":"prj_VfkyB2iaAQwEe76c0rw5xl2QnCsy","orgId":"team_rZtJrcc4ZiAKujN9lvbgicAw"}
