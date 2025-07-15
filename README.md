@@ -1,12 +1,12 @@
-# 📝 NotesApp — Full Stack Notes Manager
+#  NotesApp — Full Stack Notes Manager
 
-This is a **full-stack Notes App** built using React.js for frontend and ASP.NET Core Web API for backend.
+This is a full-stack Notes App built using React.js for frontend and ASP.NET Core Web API for backend.
 
 > It supports voice-to-text note creation, password-protected notes, and displays notes with metadata such as created/updated date.
 
 
 
-## 📁 Project Structure
+# Project Structure
 
 
 NotesApp/
@@ -14,9 +14,9 @@ NotesApp/
 └── notes-backend/     # ASP.NET Core backend API
 
 
-## 🔧 How to Run Locally
+##  How to Run Locally
 
-### ▶️ 1. Clone this repository
+### 1. Clone this repository
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/NotesApp.git
@@ -25,7 +25,7 @@ cd NotesApp
 
 ---
 
-### 💻 2. Run Backend (ASP.NET Core)
+### 2. Run Backend (ASP.NET Core)
 
 ```bash
 cd notes-backend
@@ -34,13 +34,13 @@ dotnet run
 ```
 
 Backend runs at:  
-📡 `https://localhost:44358`
+`https://localhost:44358`
 
 > Make sure this port matches your launch profile in `launchSettings.json`
 
 ---
 
-### 🌐 3. Run Frontend (React.js)
+###  3. Run Frontend (React.js)
 
 ```bash
 cd ../notes-frontend
@@ -49,36 +49,36 @@ npm run dev
 ```
 
 Frontend runs at:  
-🔗 `http://localhost:5173`
+ `http://localhost:5173`
 
 > You can change this port in `vite.config.js` if needed.
 
 ---
 
-## 🔐 Features
+## key  Features
 
-### ✅ Note Management
+###  Note Management
 - Create, Edit, Delete Notes
 - Markdown-style content supported (optional)
   
-### 🔐 Password-Protected Notes
+###  Password-Protected Notes
 - Passwords are hashed and stored securely
 - Notes can be protected on **create only**
 - Metadata stored in `.meta.json` file alongside note
 
-### 🗣️ Voice to Text
+### 🗣 Voice to Text
 - Microphone support to speak and auto-generate note content
 
-### 🗃️ Metadata Support
+### 🗃 Metadata Support
 - Each note saves `createdAt` and `updatedAt` timestamps
 - Stored in `.meta.json` file for each note
 
-### 🛡️ Unsaved Changes Protection
+###  Unsaved Changes Protection
 - Custom confirmation dialog if you try to switch without saving
 
 ---
 
-## 📦 Backend Endpoints
+## Backend Endpoints
 
 | Method | Endpoint                          | Description               |
 |--------|-----------------------------------|---------------------------|
@@ -90,35 +90,35 @@ Frontend runs at:
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
-### 🖥️ Frontend
+### Frontend
 - React.js + Vite
 - Tailwind CSS
 - SpeechRecognition API (for voice input)
 
-### ⚙️ Backend
+###  Backend
 - ASP.NET Core Web API
 - File-based storage system
 - JSON & metadata management
 
 ---
 
-## 🌐 Live Demo (Coming Soon)
+##  Live Demo (Coming Soon)
 
 - Frontend on Vercel 🔗
 - Backend on Render or Railway ⚙️
 
 ---
 
-## 👤 Author
+##  Author
 
 - **Pooja Shree**  
 - [GitHub Profile](https://github.com/Pojashri)
 
 ---
 
-## 🤝 Contributions
+##  Contributions
 
 Pull requests and suggestions are welcome.  
 Let's build together! 🧡
